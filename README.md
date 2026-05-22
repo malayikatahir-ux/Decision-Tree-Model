@@ -137,7 +137,7 @@ The purpose of this project is to learn Machine Learning from scratch with deep 
 ---
 
 <div align="center">
-## Repository Includes
+Repository Includes
 
 Handwritten Calculations • Decision Tree Diagrams • Python Implementation • Model Visualization • Prediction Analysis
 
