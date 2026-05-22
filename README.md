@@ -1,10 +1,10 @@
-Project Overview
+#**Project Overview**
 
 This project demonstrates the complete implementation of the Decision Tree Machine Learning Algorithm using the classic Play Tennis Dataset. The goal of this project was not only to train a machine learning model, but also to deeply understand how a Decision Tree makes logical decisions step by step.
 
 Instead of directly applying the algorithm through code, the project first begins with manual handwritten calculations of entropy and feature splitting to understand the mathematical reasoning behind every branch of the tree. After the theoretical understanding, the same dataset is implemented programmatically using Python and Scikit-learn.
 
-Dataset Used
+#**Dataset Used**
 
 The project uses a small categorical dataset containing 14 records with the following features:
 
@@ -15,7 +15,7 @@ Target Variable (Play) → Yes / No
 
 The objective of the model is to predict whether a person should play tennis based on weather conditions.
 
-Workflow of the Project
+#**Workflow of the Project**
 1. Handwritten Decision Tree Calculations
 
 Before coding, entropy and decision splits were manually calculated to understand:
@@ -26,7 +26,7 @@ Root node selection
 Branch creation logic
 Decision-making process of the algorithm
 
-Handwritten notes and tree diagrams are included in the repository images.
+**Handwritten notes and tree diagrams are included in the repository images.**
 
 2. Data Preprocessing
 
@@ -51,12 +51,12 @@ Predicted classes
 
 The model predictions were analyzed and compared with the handwritten calculations to verify whether the coded implementation followed the same logical structure.
 
-The project also explores:
+**The project also explores:**
 
 Why manually calculated trees and generated trees may differ
 Entropy vs Gini differences
 Impact of train-test split on small datasets
-📈 Output of the Project
+#**Output of the Project**
 
 After training, the model successfully:
  Learned decision-making patterns from weather conditions
@@ -64,7 +64,7 @@ After training, the model successfully:
  Generated a visual decision tree diagram
  Demonstrated how machine learning models create rule-based decisions
 
-Example output rules:
+**Example output rules:**
 
 Overcast → Play = Yes
 Sunny + High Humidity → Play = No
@@ -75,7 +75,8 @@ Pandas
 NumPy
 Scikit-learn
 Matplotlib
-Learning Objective
+
+#**Learning Objective**
 
 This repository focuses on building strong machine learning foundations by combining:
 
