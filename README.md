@@ -1,6 +1,6 @@
 <div align="center">
 
-# Decision Tree Machine Learning Project
+# Decision Tree Model
 
 ### From Handwritten Calculations to Model Implementation Using Python & Scikit-learn
 
@@ -56,7 +56,8 @@ Categorical features were encoded into numerical values so they could be process
 
 Techniques used:
 - Label Encoding
-- Data Transformation
+- Ordinal Encoding
+- One Hot Encoding
 
 ---
 
@@ -71,6 +72,8 @@ Libraries used:
 Pandas
 NumPy
 Scikit-learn
+Matplotlib.pyplot
+
 4. Decision Tree Visualization
 
 The trained model was visualized using Matplotlib to analyze:
@@ -79,6 +82,7 @@ Feature splits
 Decision paths
 Sample distribution
 Predicted outcomes
+
 5. Prediction & Analysis
 
 The generated Decision Tree was compared with the manually calculated tree to understand:
@@ -125,4 +129,4 @@ Repository Includes
 
 Handwritten Calculations • Decision Tree Diagrams • Python Implementation • Model Visualization • Prediction Analysis
 
-</div> ```
+</div> 
