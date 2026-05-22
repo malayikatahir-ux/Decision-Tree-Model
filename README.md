@@ -1,45 +1,76 @@
-Project Overview
+<div align="center">
 
-This project demonstrates the complete implementation of the Decision Tree Machine Learning algorithm using the classic Play Tennis dataset. The main goal of the project is to understand how a Decision Tree makes decisions step by step instead of only training a model through code.
+# Decision Tree Machine Learning Project
 
-The project starts with handwritten entropy and information gain calculations to understand the logic behind feature selection and tree splitting. After understanding the theoretical part, the same dataset is implemented programmatically using Python and Scikit-learn.
+### From Handwritten Calculations to Model Implementation Using Python & Scikit-learn
 
-Dataset Information
+</div>
 
-The dataset contains 14 records with the following features:
+---
 
-Weather → Sunny, Rainy, Overcast
-Humidity → High, Normal
-Wind → Weak, Strong
-Target Variable (Play) → Yes / No
+## Project Overview
 
-The objective of the model is to predict whether a person should play tennis based on weather conditions.
+This project demonstrates the complete implementation of the **Decision Tree Machine Learning Algorithm** using the classic **Play Tennis Dataset**.  
 
-Project Workflow
-1. Manual Decision Tree Calculations
+The primary goal of this project is not only to train a machine learning model, but also to deeply understand how a Decision Tree makes logical decisions step by step.
 
-The project begins with handwritten calculations of:
+Instead of directly applying the algorithm through code, the project first begins with **manual handwritten entropy and information gain calculations** to understand the mathematical reasoning behind every split and branch of the tree.  
 
-Entropy
-Information Gain
-Feature selection
-Root node identification
-Branch creation logic
+After the theoretical understanding, the same dataset is implemented programmatically using **Python** and **Scikit-learn**.
 
-Handwritten notes and tree diagrams are included in the repository.
+---
 
-2. Data Preprocessing
+# Dataset Information
 
-Categorical features were encoded into numerical values so they could be processed by the machine learning model.
+The dataset contains **14 records** with the following features:
 
-3. Model Training
+| Feature | Description |
+|---|---|
+| Weather | Sunny, Rainy, Overcast |
+| Humidity | High, Normal |
+| Wind | Weak, Strong |
+| Play | Yes / No (Target Variable) |
 
+### Objective
+The model predicts whether a person should play tennis based on weather conditions.
+
+---
+
+# Project Workflow
+
+## 1. Handwritten Decision Tree Calculations
+Before coding the model, entropy and information gain calculations were manually performed to understand:
+
+- Feature selection
+- Root node creation
+- Decision splitting
+- Branch generation
+- Tree decision logic
+
+Handwritten notes and manually created tree diagrams are included in the repository images.
+
+---
+
+## 2. Data Preprocessing
+Categorical features were encoded into numerical values so they could be processed by the Decision Tree model.
+
+Techniques used:
+- Label Encoding
+- Data Transformation
+
+---
+
+## 3. Model Training
 The Decision Tree Classifier was trained using:
 
-Python
+
+DecisionTreeClassifier(criterion='entropy')
+
+Libraries used:
+
 Pandas
+NumPy
 Scikit-learn
-Entropy criterion
 4. Decision Tree Visualization
 
 The trained model was visualized using Matplotlib to analyze:
@@ -47,34 +78,51 @@ The trained model was visualized using Matplotlib to analyze:
 Feature splits
 Decision paths
 Sample distribution
-Final predictions
-5. Prediction and Analysis
+Predicted outcomes
+5. Prediction & Analysis
 
-The generated decision tree was compared with the manually calculated tree to understand:
+The generated Decision Tree was compared with the manually calculated tree to understand:
 
-How the algorithm selects splits
-Why different trees can still be logically correct
-The difference between entropy and gini-based trees
-Output of the Project
+How the algorithm selects features
+Why generated trees may differ from handwritten trees
+Difference between Entropy and Gini methods
+How small datasets affect model accuracy
+Project Output
 
 The trained model successfully:
 
 Learned patterns from weather conditions
 Predicted whether tennis should be played or not
-Generated a visual decision tree structure
+Generated a visual decision tree diagram
 Demonstrated rule-based machine learning predictions
-
-Example learned rules:
-
-Overcast → Play = Yes
-Sunny + High Humidity → Play = No
-Rainy + Weak Wind → Play = Yes
+Example Learned Rules
+Condition	Prediction
+Overcast	Play = Yes
+Sunny + High Humidity	Play = No
+Rainy + Weak Wind	Play = Yes
 Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
+Technology	Purpose
+Python	Programming Language
+Pandas	Data Handling
+NumPy	Numerical Operations
+Scikit-learn	Machine Learning
+Matplotlib	Visualization
 Learning Objective
 
-This project focuses on building strong conceptual understanding of Decision Trees by combining theoretical calculations with practical implementation. The repository reflects a learning approach based on understanding, experimentation, visualization, and debugging instead of simple copy-paste coding.
+This repository focuses on building strong conceptual understanding of Decision Trees by combining:
+
+Mathematical reasoning
+Handwritten calculations
+Practical implementation
+Visualization
+Model analysis
+Debugging and experimentation
+
+The purpose of this project is to learn Machine Learning from scratch with deep conceptual clarity instead of relying only on pre-written code.
+
+<div align="center">
+Repository Includes
+
+Handwritten Calculations • Decision Tree Diagrams • Python Implementation • Model Visualization • Prediction Analysis
+
+</div> ```
