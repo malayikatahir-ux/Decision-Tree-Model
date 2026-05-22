@@ -74,7 +74,9 @@ NumPy
 Scikit-learn
 Matplotlib.pyplot
 
-4. Decision Tree Visualization
+---
+
+## 4. Decision Tree Visualization
 
 The trained model was visualized using Matplotlib to analyze:
 
@@ -83,7 +85,9 @@ Decision paths
 Sample distribution
 Predicted outcomes
 
-5. Prediction & Analysis
+---
+
+## 5. Prediction & Analysis
 
 The generated Decision Tree was compared with the manually calculated tree to understand:
 
@@ -91,7 +95,10 @@ How the algorithm selects features
 Why generated trees may differ from handwritten trees
 Difference between Entropy and Gini methods
 How small datasets affect model accuracy
-Project Output
+
+---
+
+## 6. Project Output
 
 The trained model successfully:
 
@@ -111,7 +118,10 @@ Pandas	Data Handling
 NumPy	Numerical Operations
 Scikit-learn	Machine Learning
 Matplotlib	Visualization
-Learning Objective
+
+---
+
+## 7. Learning Objective
 
 This repository focuses on building strong conceptual understanding of Decision Trees by combining:
 
@@ -124,9 +134,12 @@ Debugging and experimentation
 
 The purpose of this project is to learn Machine Learning from scratch with deep conceptual clarity instead of relying only on pre-written code.
 
+---
+
 <div align="center">
-Repository Includes
+## Repository Includes
 
 Handwritten Calculations • Decision Tree Diagrams • Python Implementation • Model Visualization • Prediction Analysis
 
+---
 </div> 
